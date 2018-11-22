@@ -1,0 +1,41 @@
+
+<div class="header">
+  
+  <div class="img">
+    
+  </div>
+  <div class="menuber">
+    
+  </div>
+ 
+</div>
+
+<div class="content">
+  <div class="side">
+    <div class="acount"></div>
+    <h3>Tadaka</h3>
+    <p>@nozomi_clone</p>
+  </div>
+  
+  <div class="main">
+    <table>
+      <tr>
+        <th><h3>tweet</h3></th>
+      </tr>
+      <% @clones.each do |clone| %>
+      <tr>
+        <td><%= clone.content %></td>
+        <td><%= link_to '詳細', clone_path(clone.id) %></td>
+        <td class="lik"><%= link_to "編集", edit_clone_path(clone.id) %></td>
+        <td class="lik"><%= link_to '削除', clone_path(clone.id), method: :delete %></td>
+      </tr>
+      <% end %>
+    </table>
+    <br >
+  </div>
+  <p class="post"><%= link_to 'tweet', new_clone_path %></p>
+  
+</div>
+<div id="footer">
+  <p class="footer">@NozomiTakada</p>
+</div>

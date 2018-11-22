@@ -1,0 +1,80 @@
+// Place all the styles related to the clones controller here.
+// They will automatically be included in application.css.
+// You can use Sass 
+html{
+    position: relative;
+}
+.header{
+    
+}
+.img{
+    width: 1200px;
+    height: 450px;
+    background-color: black;
+    background: url('himawari.jpg');
+    margin: auto;
+}
+.menuber{
+    
+}
+.side{
+    margin-left:200px;
+    float: left;
+    width: 300px;
+
+}
+.acount{
+    height: 224px;
+    width: 224px;
+    background: url('acount.png');
+    
+}
+
+.main{
+    float: left;
+    width: 800px;
+}
+.clone_title{
+    float: left;
+    width: 800px;
+    
+}
+
+th{
+    color: blue;
+    
+}
+
+h2{
+    color: blue;
+}
+
+.post{
+    color: blue;
+}
+
+h1{
+    background-color: #77FFFF;
+    text-align: center;
+    height: 3em;
+    padding-top: 1em;
+}
+
+.footer{
+    clear: left;
+    margin-left: 150px;
+    text-align: center;
+    width: 1200px;
+    height: 50px;
+    background-color: #808080;
+    padding-top: 30px;
+    padding-bottom: 1em;
+    color: white;
+}
+.btn{
+    margin-left: 300px;
+    float: left;
+}
+.subbtn{
+    margin-top: 10px;
+}
